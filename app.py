@@ -27,7 +27,7 @@ def text_to_speech(text):
 st.title("Blind Assistance System")
 st.write("---")
 # Take inputs from the streamlit
-model_name = st.sidebar.selectbox("Select Pre-trained Model:", ("BLIP-Large", "BLIP-Base", "VIT-GPT-2", "BLIP-Long"))
+model_name = st.sidebar.selectbox("Select Pre-trained Model:", ("BLIP-Long", "BLIP-Large", "VIT-GPT-2", "BLIP-Base"))
 st.write("The purpose of this project is to build a blind assistance system using custom or existing pre-trained models. I have implemented it using 3 different models.")
 st.write("1]VIT-GPT2: The Vision Encoder Decoder Model has been used to initialize an image-to-text model using VIT as the encoder and the pre-trained language model GPT2 as the decoder.")
 st.write("2]BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation: a)Large and b) Base. BLIP is a new Vision Language Processing framework which transfers flexibly to both vision-language understanding and generation tasks. BLIP effectively utilizes the noisy web data by bootstrapping the captions, where a captioner generates synthetic captions and a filter removes the noisy ones.")
