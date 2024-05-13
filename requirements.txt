@@ -3,5 +3,4 @@ gtts==2.5.1
 transformers==4.38.1
 Pillow==10.0.1
 torch==2.1.0
-pyttsx3==2.90
-espeak-ng==1.51
+pyttsx3==2.4.8
